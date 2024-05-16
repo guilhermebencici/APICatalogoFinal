@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\guilherme.a.souza\\Desktop\\Anima_UDEMY\\APICatalogoFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C5F44A3-3AF7-48F2-8862-3F6C27EB9B7B}|APICatalogoFinal\\APICatalogoFinal.csproj|c:\\users\\guilherme.a.souza\\desktop\\anima_udemy\\apicatalogofinal\\apicatalogofinal\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1C5F44A3-3AF7-48F2-8862-3F6C27EB9B7B}|APICatalogoFinal\\APICatalogoFinal.csproj|solutionrelative:apicatalogofinal\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C5F44A3-3AF7-48F2-8862-3F6C27EB9B7B}|APICatalogoFinal\\APICatalogoFinal.csproj|c:\\users\\guilherme.a.souza\\desktop\\anima_udemy\\apicatalogofinal\\apicatalogofinal\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C5F44A3-3AF7-48F2-8862-3F6C27EB9B7B}|APICatalogoFinal\\APICatalogoFinal.csproj|solutionrelative:apicatalogofinal\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C5F44A3-3AF7-48F2-8862-3F6C27EB9B7B}|APICatalogoFinal\\APICatalogoFinal.csproj|c:\\users\\guilherme.a.souza\\desktop\\anima_udemy\\apicatalogofinal\\apicatalogofinal\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C5F44A3-3AF7-48F2-8862-3F6C27EB9B7B}|APICatalogoFinal\\APICatalogoFinal.csproj|solutionrelative:apicatalogofinal\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\guilherme.a.souza\\Desktop\\Anima_UDEMY\\APICatalogoFinal\\APICatalogoFinal\\.gitignore",
+              "RelativeDocumentMoniker": "APICatalogoFinal\\.gitignore",
+              "ToolTip": "C:\\Users\\guilherme.a.souza\\Desktop\\Anima_UDEMY\\APICatalogoFinal\\APICatalogoFinal\\.gitignore",
+              "RelativeToolTip": "APICatalogoFinal\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-05-16T20:25:08.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\guilherme.a.souza\\Desktop\\Anima_UDEMY\\APICatalogoFinal\\APICatalogoFinal\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "APICatalogoFinal\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\guilherme.a.souza\\Desktop\\Anima_UDEMY\\APICatalogoFinal\\APICatalogoFinal\\Models\\Produto.cs",
+              "RelativeToolTip": "APICatalogoFinal\\Models\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:09:44.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\guilherme.a.souza\\Desktop\\Anima_UDEMY\\APICatalogoFinal\\APICatalogoFinal\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "APICatalogoFinal\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\guilherme.a.souza\\Desktop\\Anima_UDEMY\\APICatalogoFinal\\APICatalogoFinal\\Models\\Categoria.cs",
+              "RelativeToolTip": "APICatalogoFinal\\Models\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:09:29.365Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
