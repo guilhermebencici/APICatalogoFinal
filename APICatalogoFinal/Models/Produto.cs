@@ -11,6 +11,6 @@ public class Produto
     public float Estoque { get; set; }
     public DateTime DataCadastro { get; set; }
 
-    public int CategoriaId { get; set; }
-    public Categoria? Categoria { get; set; }
+    public int CategoriaId { get; set; } // essa propriedade mapeia para a chave estrangeira no banco
+    public Categoria? Categoria { get; set; }// propriedade de navegação, que indica que um Prduto está relcionado com uma Categoria
 }

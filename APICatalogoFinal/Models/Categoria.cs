@@ -13,7 +13,7 @@ namespace APICatalogoFinal.Models
         public int CategoriaId { get; set; }
         public string? Nome { get; set; }
         public string? ImagemUrl { get; set; }
-
+        // propriedade de navegação (definindo o relacionamento "um para muitos"
         public ICollection<Produto>? Produtos { get; set; }
     }
 }
