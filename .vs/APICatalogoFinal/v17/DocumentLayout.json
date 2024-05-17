@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\guilherme.a.souza\\Desktop\\Anima_UDEMY\\APICatalogoFinal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C5F44A3-3AF7-48F2-8862-3F6C27EB9B7B}|APICatalogoFinal\\APICatalogoFinal.csproj|c:\\users\\guilherme.a.souza\\desktop\\anima_udemy\\apicatalogofinal\\apicatalogofinal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C5F44A3-3AF7-48F2-8862-3F6C27EB9B7B}|APICatalogoFinal\\APICatalogoFinal.csproj|solutionrelative:apicatalogofinal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C5F44A3-3AF7-48F2-8862-3F6C27EB9B7B}|APICatalogoFinal\\APICatalogoFinal.csproj|c:\\users\\guilherme.a.souza\\desktop\\anima_udemy\\apicatalogofinal\\apicatalogofinal\\apicatalogofinal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1C5F44A3-3AF7-48F2-8862-3F6C27EB9B7B}|APICatalogoFinal\\APICatalogoFinal.csproj|solutionrelative:apicatalogofinal\\apicatalogofinal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C5F44A3-3AF7-48F2-8862-3F6C27EB9B7B}|APICatalogoFinal\\APICatalogoFinal.csproj|c:\\users\\guilherme.a.souza\\desktop\\anima_udemy\\apicatalogofinal\\apicatalogofinal\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{1C5F44A3-3AF7-48F2-8862-3F6C27EB9B7B}|APICatalogoFinal\\APICatalogoFinal.csproj|solutionrelative:apicatalogofinal\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -35,6 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\guilherme.a.souza\\Desktop\\Anima_UDEMY\\APICatalogoFinal\\APICatalogoFinal\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "APICatalogoFinal\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\guilherme.a.souza\\Desktop\\Anima_UDEMY\\APICatalogoFinal\\APICatalogoFinal\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "APICatalogoFinal\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T12:58:20.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "APICatalogoFinal.csproj",
+              "DocumentMoniker": "C:\\Users\\guilherme.a.souza\\Desktop\\Anima_UDEMY\\APICatalogoFinal\\APICatalogoFinal\\APICatalogoFinal.csproj",
+              "RelativeDocumentMoniker": "APICatalogoFinal\\APICatalogoFinal.csproj",
+              "ToolTip": "C:\\Users\\guilherme.a.souza\\Desktop\\Anima_UDEMY\\APICatalogoFinal\\APICatalogoFinal\\APICatalogoFinal.csproj",
+              "RelativeToolTip": "APICatalogoFinal\\APICatalogoFinal.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-16T20:35:37.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\guilherme.a.souza\\Desktop\\Anima_UDEMY\\APICatalogoFinal\\APICatalogoFinal\\.gitignore",
               "RelativeDocumentMoniker": "APICatalogoFinal\\.gitignore",
@@ -47,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\guilherme.a.souza\\Desktop\\Anima_UDEMY\\APICatalogoFinal\\APICatalogoFinal\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "APICatalogoFinal\\Models\\Produto.cs",
@@ -60,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\guilherme.a.souza\\Desktop\\Anima_UDEMY\\APICatalogoFinal\\APICatalogoFinal\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "APICatalogoFinal\\Models\\Categoria.cs",
