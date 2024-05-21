@@ -20,7 +20,7 @@ public class ProdutosController : ControllerBase
     //Utilizao o ActionResult porque assim posso retornar mais que um tipo, neste caso: Uma lista ou o método Action em si (NotFound)
     public ActionResult<IEnumerable<Produto>> Get() //IEnumerable: É ma interface de leitura. Permite adiar a execução (trabalha por demanda)
     {
-        var produtos = _context.Produtos.ToList();
+        var produtos = _context.Produtos.AsNoTracking().ToList();
         if (produtos is null)
         {
             return NotFound("Produtos não encontrados");// equivalente ao 404
@@ -31,7 +31,7 @@ public class ProdutosController : ControllerBase
     [HttpGet("{id:int}", Name = "ObterProduto")]
     public ActionResult<Produto> Get(int id)
     {
-        var produto = _context.Produtos.FirstOrDefault(p => p.ProdutoId == id);
+        var produto = _context.Produtos.AsNoTracking().FirstOrDefault(p => p.ProdutoId == id);
         if (produto is null)
         {
             return NotFound("Produto não encontrado...");

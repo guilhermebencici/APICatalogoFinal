@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace APICatalogoFinal.Models;
 
@@ -23,7 +24,7 @@ public class Produto
     public string? ImagemUrl { get; set; }
     public float Estoque { get; set; }
     public DateTime DataCadastro { get; set; }
-
+    [JsonIgnore] // com o JsonIgnore, essa propriedade vai ser ignorada na serialização
     public int CategoriaId { get; set; } // essa propriedade mapeia para a chave estrangeira no banco
     public Categoria? Categoria { get; set; }// propriedade de navegação, que indica que um Prduto está relcionado com uma Categoria
 }
