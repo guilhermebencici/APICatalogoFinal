@@ -15,6 +15,14 @@ public class ProdutosController : ControllerBase
     {
         _context = context;
     }
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<Produto>>> get3()
+    {
+        return await _context.Produtos.AsNoTracking().ToListAsync();
+
+    }
+
+    [HttpGet]
     public ActionResult<Produto> getdois() //ActionResult permite que eu possa retornar mais de um tipo
     {
         var produto = _context.Produtos.FirstOrDefault();
@@ -24,6 +32,7 @@ public class ProdutosController : ControllerBase
         }
         return produto;
     }
+
     [HttpGet]
     //Utilizao o ActionResult porque assim posso retornar mais que um tipo, neste caso: Uma lista ou o método Action em si (NotFound)
     public ActionResult<IEnumerable<Produto>> Get() //IEnumerable: É ma interface de leitura. Permite adiar a execução (trabalha por demanda)
