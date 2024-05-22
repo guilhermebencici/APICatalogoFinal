@@ -27,8 +27,8 @@ public class ProdutosController : ControllerBase
         }
         return produtos;
     }
-
-    [HttpGet("{id:int}", Name = "ObterProduto")]
+    // acrescentando uma restrição de rota: id:int:min(1) -> Precisa ser inteiro e ser => 1
+    [HttpGet("{id:int:min(1)}", Name = "ObterProduto")]
     public ActionResult<Produto> Get(int id)
     {
         var produto = _context.Produtos.AsNoTracking().FirstOrDefault(p => p.ProdutoId == id);
