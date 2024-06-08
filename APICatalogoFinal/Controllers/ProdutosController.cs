@@ -1,6 +1,7 @@
 ﻿using APICatalogoFinal.Context;
 using APICatalogoFinal.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 
 namespace APICatalogoFinal.Controllers;
@@ -15,14 +16,14 @@ public class ProdutosController : ControllerBase
     {
         _context = context;
     }
-    [HttpGet]
+    [HttpGet("get3")]
     public async Task<ActionResult<IEnumerable<Produto>>> get3()
     {
         return await _context.Produtos.AsNoTracking().ToListAsync();
 
     }
 
-    [HttpGet]
+    [HttpGet("getdois")]
     public ActionResult<Produto> getdois() //ActionResult permite que eu possa retornar mais de um tipo
     {
         var produto = _context.Produtos.FirstOrDefault();
@@ -33,7 +34,7 @@ public class ProdutosController : ControllerBase
         return produto;
     }
 
-    [HttpGet]
+    [HttpGet("Get")]
     //Utilizao o ActionResult porque assim posso retornar mais que um tipo, neste caso: Uma lista ou o método Action em si (NotFound)
     public ActionResult<IEnumerable<Produto>> Get() //IEnumerable: É ma interface de leitura. Permite adiar a execução (trabalha por demanda)
     {
@@ -46,8 +47,9 @@ public class ProdutosController : ControllerBase
     }
     // acrescentando uma restrição de rota: id:int:min(1) -> Precisa ser inteiro e ser => 1
     [HttpGet("{id:int:min(1)}", Name = "ObterProduto")]
-    public ActionResult<Produto> Get(int id)
+    public ActionResult<Produto> Get(int id, [BindRequired]string nome) //BindRequired Adiciona um erro ao ModelState se a vinculação de dados aos param não puder ocorrer
     {
+        var nomeProduto = nome;
         var produto = _context.Produtos.AsNoTracking().FirstOrDefault(p => p.ProdutoId == id);
         if (produto is null)
         {

@@ -17,7 +17,7 @@ public class CategoriasController : ControllerBase
         _context = context;
     }
 
-    [HttpGet]
+    [HttpGet("GetCategoriasProdutos")]
     public ActionResult<IEnumerable<Categoria>> GetCategoriasProdutos()
     {
         try
@@ -29,9 +29,9 @@ public class CategoriasController : ControllerBase
             return StatusCode(StatusCodes.Status500InternalServerError,
                 "Ocorreu um problema ao tratar a sua solicitação.");
         }
-        return _context.Categorias.Include(p => p.Produtos).AsNoTracking().ToList();
     }
-    [HttpGet]
+
+    [HttpGet("Get")]
     public ActionResult<IEnumerable<Categoria>> Get()
     {
         try
