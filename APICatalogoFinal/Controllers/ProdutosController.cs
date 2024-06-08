@@ -47,10 +47,10 @@ public class ProdutosController : ControllerBase
     }
     // acrescentando uma restrição de rota: id:int:min(1) -> Precisa ser inteiro e ser => 1
     [HttpGet("{id:int:min(1)}", Name = "ObterProduto")]
-    public ActionResult<Produto> Get(int id, [BindRequired]string nome) //BindRequired Adiciona um erro ao ModelState se a vinculação de dados aos param não puder ocorrer
+    public async Task<ActionResult<Produto>> Get([FromQuery]int id)// id sendo recebido da cadeia de consulta
     {
-        var nomeProduto = nome;
-        var produto = _context.Produtos.AsNoTracking().FirstOrDefault(p => p.ProdutoId == id);
+        var produto = await _context.Produtos.AsNoTracking()
+            .FirstOrDefaultAsync(p => p.ProdutoId == id);
         if (produto is null)
         {
             return NotFound("Produto não encontrado...");
