@@ -1,5 +1,6 @@
 ﻿using APICatalogoFinal.Context;
 using APICatalogoFinal.Models;
+using APICatalogoFinal.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,10 +12,18 @@ namespace APICatalogoFinal.Controllers;
 public class CategoriasController : ControllerBase
 {
     private readonly AppDbContext _context;
+    private readonly IMeuServico _meuServico;
 
-    public CategoriasController(AppDbContext context)
+    public CategoriasController(AppDbContext context, IMeuServico meuServico)
     {
         _context = context;
+        _meuServico = meuServico;
+    }
+
+    [HttpGet("UsandoFromService/{nome}")]
+    public ActionResult<string> GetSaudacaoFromServices([FromServices] IMeuServico meuServico, string nome)
+    {
+        return meuServico.Saudacao(nome);
     }
 
     [HttpGet("GetCategoriasProdutos")]
